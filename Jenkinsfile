@@ -10,6 +10,9 @@ pipeline {
                     reuseNode true
                 }
             }
+             steps {
+                            echo 'Pull'
+                        }
         }
         stage ('Test & Build Artifact') {
             steps {
