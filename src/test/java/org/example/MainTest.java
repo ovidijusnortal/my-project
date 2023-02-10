@@ -13,7 +13,7 @@ class MainTest {
 
     @Test
     void buildGreeting2() {
-        assertEquals("Hello Worldss!", Main.buildGreeting("Worlds"));
+        assertEquals("Hello Worlds!", Main.buildGreeting("Worlds"));
     }
 
     @Test
