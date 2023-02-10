@@ -10,4 +10,14 @@ class MainTest {
     void buildGreeting() {
         assertEquals("Hello World!", Main.buildGreeting("World"));
     }
+
+    @Test
+    void buildGreeting2() {
+        assertEquals("Hello Worlds!", Main.buildGreeting("Worlds"));
+    }
+
+    @Test
+    void buildGreeting3() {
+        assertEquals("Hello Planet!", Main.buildGreeting("Planet"));
+    }
 }
