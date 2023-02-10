@@ -31,6 +31,6 @@ class MainTest {
     }
     @Test
     void buildGreeting5() {
-        assertEquals("Hello Universe!", Main.buildGreeting("Universe"));
+        assertEquals("Hello Universe!", Main.buildGreeting("Universed"));
     }
 }
