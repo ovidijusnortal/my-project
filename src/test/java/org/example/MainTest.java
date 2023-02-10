@@ -15,4 +15,9 @@ class MainTest {
     void buildGreeting2() {
         assertEquals("Hello World!", Main.buildGreeting("Worlds"));
     }
+
+    @Test
+    void buildGreeting3() {
+        assertEquals("Hello Planet!", Main.buildGreeting("Planet"));
+    }
 }
