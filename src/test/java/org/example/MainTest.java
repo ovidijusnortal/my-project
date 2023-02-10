@@ -23,14 +23,14 @@ class MainTest {
 
     @Test
     void buildGreeting4() {
-        assertEquals("Hello Universes!", Main.buildGreeting("Universe"));
+        assertEquals("Hello Universe!", Main.buildGreeting("Universe"));
     }
     @Test
     void buildGreeting6() {
-        assertEquals("Hello Universes!", Main.buildGreeting("Universe"));
+        assertEquals("Hello Universe!", Main.buildGreeting("Universe"));
     }
     @Test
     void buildGreeting5() {
-        assertEquals("Hello Universes!", Main.buildGreeting("Universe"));
+        assertEquals("Hello Universe!", Main.buildGreeting("Universe"));
     }
 }
