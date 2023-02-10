@@ -18,6 +18,6 @@ class MainTest {
 
     @Test
     void buildGreeting3() {
-        assertEquals("Hello Planet!", Main.buildGreeting("Planet"));
+        assertEquals("Hello Planets!", Main.buildGreeting("Planet"));
     }
 }
